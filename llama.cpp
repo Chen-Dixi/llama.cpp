@@ -122,7 +122,7 @@ static const std::map<e_model, size_t> & MEM_REQ_EVAL()
 {
     static std::map<e_model, size_t> k_sizes = {
         { MODEL_3B,   512ull * MB },
-        { MODEL_7B,   768ull * MB },
+        { MODEL_7B,   1536ull * MB },
         { MODEL_13B, 1024ull * MB },
         { MODEL_30B, 1280ull * MB },
         { MODEL_65B, 1536ull * MB },
